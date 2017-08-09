@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_doa_witir"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.DoaWitir">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/berdoa"
+        android:layout_width="100pt"
+        android:layout_height="100pt"
+        android:id="@+id/dhuhaimage"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="15pt"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Doa Sholat Witir"
+        android:id="@+id/judul"
+        android:layout_below="@+id/dhuhaimage"/>
+
+        <ImageView
+            android:src="@drawable/doawitir"
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:id="@+id/doa"
+            android:layout_below="@+id/judul"/>
+
+        <ImageView
+            android:src="@drawable/latinwitir"
+            android:layout_width="200pt"
+            android:layout_height="75pt"
+            android:id="@+id/latindoa"
+            android:layout_below="@+id/doa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/arti"
+            android:textColor="#fff"
+            android:text="  'Wahai Allah. Sesungguhnya kami memohon kepada-Mu iman yang tetap, kami memohon kepada-Mu hati yang khusyu', kami memohon kepada-Mu ilmu yang bermanfaat, kami memohon kepada-Mu keyakinan yang benar, kami memohon kepada-Mu amal yang shaleh, kami memohon kepada-Mu agama yang lurus, kami memohon kepada-Mu kebaikan yang banyak, kami memohon kepada-Mu ampunan dan afiat, kami memohon kepada-Mu kesehatan yang sempurna, kami memohon kepada-Mu syukur atas kesehatan, dan kami memohon kepada-Mu terkaya dari semua manusia. Ya Allah, Tuhan kami. Terimalah dari kami shalat kami, puasa kami, shalat malam kami, kekhusyu'an kami, kerendahan hati kami, ibadah kami. Sempurnakanlah kelalaian atau kekurangan kami, Wahai Allah Wahai Allah Wahai Allah Wahai Dzat yang Paling Penyayang diantara para penyayang. Semoga rahmat Allah tercurahkan kepada sebaik-baiknya makhluk-Nya, Muhammad, keluarga dan sahabatnya semua, dan segala puji milik Allah, Tuhan semesta alam.'"
+            android:layout_below="@+id/judularti"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="34dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/judularti"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="Arti Doa Sholat Witir :"
+            android:layout_below="@+id/latindoa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="22dp" />
+    </RelativeLayout>
+</ScrollView>

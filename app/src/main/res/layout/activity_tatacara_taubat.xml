@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tatacara_taubat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.TatacaraTaubat">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="200pt"
+        android:layout_height="100pt"
+        android:src="@drawable/taubat"
+        android:id="@+id/imagefitri"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/judul"
+        android:layout_below="@+id/imagefitri"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:text="Tatacara Sholat Taubat"
+        android:gravity="center"/>
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/content"
+        android:layout_below="@+id/judul"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Niat"/>
+    <ImageView
+        android:layout_width="200pt"
+        android:layout_height="30pt"
+        android:layout_below="@+id/content"
+        android:src="@drawable/niattaubat"
+        android:id="@+id/content2"/>
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/content3"
+        android:gravity="center"
+        android:layout_below="@+id/content2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ushalli Sunnatat Taubati Rak’ataini Lillaahi Ta’aalaa, Allaahu Akbar"/>
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/content4"
+        android:layout_below="@+id/content3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Artinya: “Aku Niat Sholat Sunah Taubat dua Raka’at karena Alloh Ta’ala, Alloh Maha Besar”"/>
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/content5"
+        android:layout_below="@+id/content4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Setelah anda membaca Bacaan Niat Sholat Taubat diatas, maka anda dilanjutkan dg membaca Surat Al Fatihah di masing – masing 2 Raka’at."/>
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/content6"
+        android:layout_below="@+id/content5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Setelah membaca Suratan Al Fatihah seperti diatas, diusahakan membaca Surat Al Kafirun di dlm Raka’at pertama anda karena kandungan atau manfaat yg terdapat di Surat Al Kafirun sangat banyak."/>
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/content7"
+        android:layout_below="@+id/content6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Kemudian anda tinggal ruku, itidal, sujud dan kembali berdiri untuk melakukan Raka’at kedua atau Raka’at terakhir. Didalam Rakaat Kedua ini di usahakan anda membaca Surat Al Ikhlas setelah membaca Suratan Al Fatihah"/>
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/content8"
+        android:layout_below="@+id/content7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Setelah anda selesai mengerjakan Sholat Sunah Taubat lalu anda tinggal membaca doa setelah sholat taubat."/>
+   </RelativeLayout>
+</ScrollView>

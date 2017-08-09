@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_doa_taubat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.DoaTaubat">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:src="@drawable/tahiyatmasjid"
+            android:id="@+id/image"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:text="Doa Sholat Taubat"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:id="@+id/judul"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:text="  Diusahakan membaca Istighfar ini sebanyak – banyaknya minimal 100 kali dan ditambahkan dg Sholawat Nabi."
+            android:textColor="#fff"
+            android:id="@+id/content"/>
+        <ImageView
+            android:layout_width="200pt"
+            android:layout_height="40pt"
+            android:src="@drawable/taubat2"
+            android:id="@+id/image2"
+            android:layout_below="@+id/content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image2"
+            android:text="  Setelah itu membaca doa taubat :"
+            android:textColor="#fff"
+            android:id="@+id/content2"/>
+        <ImageView
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:src="@drawable/doataubat"
+            android:id="@+id/image3"
+            android:layout_below="@+id/content2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp" />
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image3"
+        android:text="  Allahumma anta rabbi laa ilaaha illa anta khalaqtani wa ana ‘abduka waana ‘alaa ‘ahdika wa wa’dika mastath’tu a’uudzubika min syarri maa shana’tu abuu-u laka bini’matika ‘alay yaw a abuu-u bidzanbii faghfirlii fa innahuu laa yagh firudz dzunuuba illa anta. Rabbanaa aatinaa fid dun yaa hasanatan wa fil aakhirati hasanatan wa qinaa’adzaaban naar. Wal hamdu lillaahi rabbil ‘alamiin "
+        android:textColor="#fff"
+        android:id="@+id/content4"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content4"
+            android:text="Arti Doa Sholat Hajat :"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:id="@+id/content3"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="  'Wahai Tuhanku, Engkau adalah Tuhanku, Tidak ada Tuhan yang patut disembah melainkan hanya Engkau, yang telah menciptakan aku, dan aku adalah hamba- Mu. Dan akupun dalam ketentuan serta janji-Mu sedapat mungkin dapat aku lakukan. Aku mohon perlindungan kepada-Mu dari segala kejahatan yang telah Engkau ciptakan, aku mengikuti nikmat-Mu yang telah Engkau berikan kepadaku, dan aku mengakui dosaku, oleh karena itu berilah pengampunan kepadaku karena tidak ada yang dapat memberi pengampunan, kecuali hanya Engkau. Aku mohon perlindungan dari kejahatan apa yang kulakukan'"
+            android:textColor="#fff"
+            android:layout_below="@+id/content3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp"
+            android:id="@+id/textView3" />
+    </RelativeLayout>
+</ScrollView>

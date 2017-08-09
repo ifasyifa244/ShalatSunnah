@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="assalaam.istigosah.id.shalatsunnah">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconsolat"
+        android:label="Panduan Sholat Sunnah"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".DaftarSholatSunnah" />
+        <activity android:name=".SholatDhuha" />
+        <activity android:name=".PengertianDhuha" />
+        <activity android:name=".TentangSholatDhuha" />
+        <activity android:name=".DoaSholatDhuha" />
+        <activity android:name=".TatacaraDhuha" />
+        <activity android:name=".SholatThajud" />
+        <activity android:name=".PengertianTahajud" />
+        <activity android:name=".DoaTahajud" />
+        <activity android:name=".TatacaraTahajud" />
+        <activity android:name=".AssalaamWeb" />
+        <activity android:name=".Profile" />
+        <activity android:name=".SholatGaib" />
+        <activity android:name=".DoaGaib" />
+        <activity android:name=".TatacaraGaib" />
+        <activity android:name=".PengertianGaib" />
+        <activity android:name=".SholatIdulFitri" />
+        <activity android:name=".DoaIdulFitri" />
+        <activity android:name=".TatacaraIdulFitri" />
+        <activity android:name=".PengertianIdulFitri" />
+        <activity android:name=".SholatIdulAdha" />
+        <activity android:name=".DoaIdulAdha" />
+        <activity android:name=".PengertianIdulAdha" />
+        <activity android:name=".TatacaraIdulAdha" />
+        <activity android:name=".SholatGerhana" />
+        <activity android:name=".PengertianGerhana" />
+        <activity android:name=".DoaGerhana" />
+        <activity android:name=".TatacaraGerhana" />
+        <activity android:name=".SholatWitir" />
+        <activity android:name=".DoaWitir" />
+        <activity android:name=".TatacaraWitir" />
+        <activity android:name=".PengertianWitir" />
+        <activity android:name=".SholatIstikharah" />
+        <activity android:name=".DoaIstikharah" />
+        <activity android:name=".PengertianIstikharah" />
+        <activity android:name=".TatacaraIstikharah" />
+        <activity android:name=".SholatHajat" />
+        <activity android:name=".PengertianHajat" />
+        <activity android:name=".DoaHajat" />
+        <activity android:name=".TatacaraHajat" />
+        <activity android:name=".SholatTaubat" />
+        <activity android:name=".DoaTaubat" />
+        <activity android:name=".PengertianTaubat" />
+        <activity android:name=".TatacaraTaubat"></activity>
+    </application>
+
+</manifest>

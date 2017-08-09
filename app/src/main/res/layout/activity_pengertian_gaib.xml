@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pengertian_gaib"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.PengertianGaib">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/gaib"
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:id="@+id/imagegaib"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sholat Gaib"
+            android:gravity="center"
+            android:id="@+id/judul"
+            android:textStyle="bold"
+            android:textSize="15pt"
+            android:layout_below="@+id/imagegaib"
+            android:textColor="#fff"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content"
+            android:layout_below="@+id/judul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Shalat yg dilakukan ketika ada salah satu keluarga anda atau kerabat atau siapapun seorang Muslim yg meninggal dunia tetapi meninggalnya tersebut di tempat yg jauh dari anda maupun sanak keluarganya maka disunahkan kita untuk melakukan Shalat ini atas mayat tersebut walaupun meninggal-nya sang mayat sudah lewat seminggu atau lebih.
+
+Hukum Mengerjakan Shalat Ghaib ini adalah sunah yg jika dilakukan mendapatkan pahala dan jika tidak melakukan maka tak dosa.
+
+"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content"
+            android:id="@+id/content3"
+            android:text="Sedangkan untuk Waktu Shalat Ghaib tersebut bisa dilakukan kapan saja baik siang dan malam baik sendiri maupun secara Mak’mum, tetapi lebih Shalat ini lebih baik dilakukan atau dikerjakan secara bersama – sama sehingga pahala yg di dapatkan oleh sang mayat menjadi lebih banyak."
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content3"
+            android:id="@+id/content2"
+            android:text="Manfaat Shalat Ghaib ini sendiri adalah untuk mendapatkan pahala yg banyak, seperti sabda Nabi Muhammad Saw yg berbunyi, ” Barang Siapa yg mengiringi Jenazah dan Turut menshalatkan maka dia akan memperoleh pahala yg sebesar 1 Qirath (Gunung Besar) HR. Muttafaq ‘ Alaih ”. Sholat Ghaib sama persis dg Shalat Jenazah hanya saja Sholat Ghaib ini dilakukan ketika sang mayat berada jauh diluar sana."
+            android:textColor="@color/colorPrimary"/>
+    </RelativeLayout>
+</ScrollView>

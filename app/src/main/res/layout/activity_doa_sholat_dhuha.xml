@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_doa_sholat_dhuha"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.DoaSholatDhuha">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/berdoa"
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:id="@+id/imagedoa"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagedoa"
+            android:text="Doa Sholat Dhuha"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:id="@+id/judul"/>
+        <TextView
+            android:text="اَللهُمَّ اِنَّ الضُّحَآءَ ضُحَاءُكَ، وَالْبَهَاءَ بَهَاءُكَ، وَالْجَمَالَ جَمَالُكَ، وَالْقُوَّةَ قُوَّتُكَ، وَالْقُدْرَةَ قُدْرَتُكَ، وَالْعِصْمَةَ عِصْمَتُكَ. اَللهُمَّ اِنْ كَانَ رِزْقَى فِى السَّمَآءِ فَأَنْزِلْهُ وَاِنْ كَانَ فِى اْلاَرْضِ فَأَخْرِجْهُ وَاِنْ كَانَ مُعَسَّرًا فَيَسِّرْهُ وَاِنْ كَانَ حَرَامًا فَطَهِّرْهُ وَاِنْ كَانَ بَعِيْدًا فَقَرِّبْهُ بِحَقِّ ضُحَاءِكَ وَبَهَاءِكَ وَجَمَالِكَ وَقُوَّتِكَ وَقُدْرَتِكَ آتِنِىْ مَآاَتَيْتَ عِبَادَكَ الصَّالِحِيْنَ"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:id="@+id/doa"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/doa"
+            android:id="@+id/judulindo"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="Doa Sholat Dhuha Bahasa Indonesia"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judulindo"
+            android:id="@+id/doaindo"
+            android:textColor="@color/colorPrimary"
+            android:text="Allahumma innadh dhuha-a dhuha-uka, wal bahaa-a bahaa-uka, wal jamaala jamaaluka, wal quwwata quwwatuka, wal qudrata qudratuka, wal ishmata ishmatuka. Allahuma inkaana rizqi fis samma-i fa anzilhu, wa inkaana fil ardhi fa-akhrijhu, wa inkaana mu’asaran fayassirhu, wainkaana haraaman fathahhirhu, wa inkaana ba’idan fa qaribhu, bihaqqiduhaa-ika wa bahaaika, wa jamaalika wa quwwatika wa qudratika, aatini maa ataita ‘ibadakash shalihin."/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/doaindo"
+            android:id="@+id/arti1"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="Arti Doa Sholat Dhuha :"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/arti1"
+            android:id="@+id/arti"
+            android:textColor="@color/colorPrimary"
+            android:text="“Ya Allah, sesungguhnya waktu dhuha adalah waktu dhuha-Mu, keagungan adalah keagunan-Mu, keindahan adalah keindahan-Mu, kekuatan adalah kekuatan-Mu, penjagaan adalah penjagaan-Mu, Ya Allah, apabila rezekiku berada di atas langit maka turunkanlah, apabila berada di dalam bumi maka keluarkanlah, apabila sukar mudahkanlah, apabila haram sucikanlah, apabila jauh dekatkanlah dengan kebenaran dhuha-Mu, kekuasaan-Mu (Wahai Tuhanku), datangkanlah padaku apa yang Engkau datangkan kepada hamba-hambaMu yang soleh."/>
+    </RelativeLayout>
+</ScrollView>

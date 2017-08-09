@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_doa_gaib"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.DoaGaib">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:src="@drawable/doagaib2"
+            android:id="@+id/image"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:text="Doa Sholat Gaib"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:id="@+id/judul"/>
+        <ImageView
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:src="@drawable/latingaib"
+            android:id="@+id/image2"
+            android:layout_below="@+id/judul"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image2"
+            android:text="Arti Doa Sholat Gaib :"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content"
+            android:text="”’ Ya Alloh, Curahkanlah rahmat atas junjungan kita Nabi Muhammad Saw dan kpd keluarga Nabi Muhammad Saw. Ya Alloh, dg berkahnya surat Al Fatihah, bebaskan-lah dosa kami dan dosa mayat inni dari siksaan api neraka ”.
+
+” Ya Alloh, Curahkanlah rahmat dan berikanlah ampunan kpd mayat ii. Dan jadikanlah tempat kubur-nya taman nyaman dari sorga dan janganlah Engkau jadikan kubur-nya itu lubang jurang neraka. Dan semoga Alloh memberikan rahmat kpd semulia – mulia makhluk-nya yaitu junjungan kami Nabi Muhammad Saw dan keluarga-nya serta sahabat2nya sekalian, dan segala puji bagi Alloh Tuhan seru sekalian alam ”."
+            android:textColor="#fff"/>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pengertian_witir"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.PengertianWitir">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:src="@drawable/witir"
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:id="@+id/witir"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sholat Witir"
+            android:gravity="center"
+            android:id="@+id/judul"
+            android:textStyle="bold"
+            android:textSize="15pt"
+            android:layout_below="@+id/witir"
+            android:textColor="#fff"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/pengertian"
+            android:layout_below="@+id/judul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="  Shalat Sunah dg jumlah Raka’at satu, dua, tiga, lima, tujuh dan maksimal sebelas Raka’at yang dikerjakan setelah Shalat Isya sampai terbitnya fajar atau masuk waktu Shalat Subuh dan untuk Hukum Mengerjakan Shalat Witir ini ialah sunah tetapi shalat sunah yg sangat penting untuk di kerjakan karena Alloh Swt sangat menyukai witir seperti Hadist yg berbunyi, ” Hai Para Pencita – cita Al-Qur’an kerjakanlah Shalat Witir sebab Alloh Swt itu tunggal dan dia suka kpd bilangan witir ”."
+            />
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content"
+            android:layout_below="@+id/pengertian"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="  Keutamaan Shalat Witir dan Manfaat Shalat Witir bagi seseorang yg mengerjakan-nya akan mendapatkan pahala yg begitu besar karena Alloh Swt sangat mencintai witir dan menyukai sesuatu yg ganjil dan Nabi Muhammad Saw jg pernah bersabda yg berbunyi, ” Sesungguhnya Alloh Swt telah menambahkan kalian dg Satu Shalat yg Shalat itu lebih baik untuk dirimu dari pd unta yg merah yakni Shalat Witir ”."/>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pengertian_tahajud"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.PengertianTahajud">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/solattahajud"
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:id="@+id/tahajudimage"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sholat Tahajud"
+            android:gravity="center"
+            android:id="@+id/judul"
+            android:textStyle="bold"
+            android:textSize="15pt"
+            android:layout_below="@+id/tahajudimage"
+            android:textColor="#fff"/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/pengertian"
+            android:layout_below="@+id/judul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sholat Sunah yg dikerjakan pd waktu malam sedikitnya 2 (dua) Raka’at dan sebanyak – banyaknya tidak terbatas dan masing – masing di 2 Raka’at dibarengi dg salam. Adapun Waktu Mengerjakan Sholat Tahajud dikerjakan setelah mengerjakan Sholat Isya sampai terbit fajar yg hanya bisa di lakukan di malam hari. Sholat Tahajud ini hanya bisa dilakukan dimalam hari selepas Sholat Isya dg syarat harus tidur dulu atau selepas tidur, walaupun tidur ittu hanya sebentaar saja."
+            />
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/pengertian2"
+            android:layout_below="@+id/pengertian"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Jadi apabila anda mengerjakan Sholat Tahajud tanpa tidur terlebih dahulu maka Sholat anda tersebut bukan Sholat Sunah Tahajud melainkan Sholat – Sholat Sunah sajja seperti Sholat Sunah Witir atau sebagainyaa. Untuk Waktu Sholat Tahajud Sendirii dikerjakaan malam hari setelah Sholat Isya sampai masuk waktu Sholat Subuh dan sesudah bangun tidur, sedangkan untuk Waktu Sholat Tahajud yg paling utama bisa dibagi menjadi 3 (tiga) sepanjang malam yg antara lain"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/pengertian3"
+            android:layout_below="@+id/pengertian2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Waktu Sepertiga Pertama ialah yg kira – kira dari jam 19.00 mlm sampai dg jam 22.00 mlm (Waktu Saat Utama), Waktu Sepertiga Kedua ialah kira – kira dari jam 22.00 mlm sampai dg jam 01.00 pagi (Waktu ini saat yg lebih utama) dan Waktu Sepertiga Ketiga ialah waktu kira – kira dari jam 01.00 pagi sampai dg sebelum masuknya waktu shubuh (Waktu yg paling sangat utama)."/>
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/judulhadist"
+            android:layout_below="@+id/pengertian3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" # Hadist tentang sholat tahajud yang diriwayatkan dari Abu Huroiroh r.a, bahwa Rosulullah SAW bersabda :"/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/hadist"
+            android:layout_below="@+id/judulhadist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Setan mengikat pada ujung kepala salah seorang diantara kalian jika tidur dengan tiga ikatan. Masing-masing ikatan mengatakan: “Engkau masih memiliki malam yang panjang, maka tidurlah!’ Jika ia bangun lantas menyebut nama Allah, maka terlepaslah satu ikatan. Jika ia berwudlu, maka lepaslah ikatan berikutnya. Dan jika ia mengerjakaan sholat, maka terlepaslah satu ikatan lagi, sehingga keesokan harinya ia menjadi giat, demikian juga jiwanya akaan menjadi baik. Jika tidak demikian, maka keesokan harinya ia menjadi kotor jiwanya lagi pemalas.” (HR. Muslim 1163)."/>
+    </RelativeLayout>
+</ScrollView>

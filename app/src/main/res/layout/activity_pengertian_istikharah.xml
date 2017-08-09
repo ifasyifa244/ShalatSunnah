@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pengertian_istikharah"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.PengertianIstikharah">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:src="@drawable/istkharah"
+            android:id="@+id/istikharah"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/judul"
+            android:layout_below="@+id/istikharah"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:text="Sholat Istikharah"
+            android:gravity="center"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content"
+            android:layout_below="@+id/judul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="      Shalat sunnah istikharah adalah shalat untuk memohon petunjuk dari Allah baik itu dari hal pekerjaan, perjodohan atau rencana yang masih diragukan untuk memilih jalan mana yang mau di ambil, Mulai dari kepentingan pribadi maupun kepentingan umum, intinya shalat ini dilakukan ketika kita merasa sedang kebingungan dalam mengambil sebuah keputusan. "/>
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content2"
+            android:layout_below="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="      Untuk waktu pelaksanaanya boleh dilakukan kapan saja, siang hari maupun malam hari, asalkan jangan pada waktu-waktu terlarang, tetapi alangkah baiknya dilakukan pada waktu malam hari yaitu pada pukul 01.00 WIB, jumlah raka'at shalat istikharah adalah 2 raka'at, untuk cara pelaksanaan shalat istikharah sama dengan cara pelaksanaan shalat fardu, perbedaannya hanya terletak pada niatnya."/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/content3"
+            android:layout_below="@+id/content2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Niat Sholat Istikharah :"/>
+        <ImageView
+            android:id="@+id/image2"
+            android:src="@drawable/niatisthikarah"
+            android:layout_below="@+id/content3"
+            android:layout_width="200pt"
+            android:layout_height="50pt"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/content5"
+            android:layout_below="@+id/content4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Artinya : Aku niat shalat sunnat istikharah 2 rakaat karena Allah ta'ala."/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/content4"
+            android:layout_below="@+id/image2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ushallii sunnatal istikhaarati rak'ataini lillaahita'aalaa"/>
+    </RelativeLayout>
+</ScrollView>

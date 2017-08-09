@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tatacara_tahajud"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.TatacaraTahajud">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <ImageButton
+            android:src="@drawable/tahajud2"
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:id="@+id/tahajudimage"/>
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Tatacara Sholat Tahajud"
+            android:id="@+id/judul"
+            android:layout_below="@+id/tahajudimage"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content"
+            android:layout_below="@+id/judul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Cara Mengerjakan Sholat Tahajud ini masih sama dg mengerjakan Sholat – Sholat pada umumnya baik dalam Sholat Wajib maupun Sholat Sunah. Cara Sholat Tahajud sendiri diawali dg Bacaan Niat Sholat, membaca Surat Al Fatihah, Membaca Suratan, lalu Ruku, I’tiidal, kemudaian Sujud dan yang terakhir Salam lalu membaca doa sholat tahajud."/>
+         <TextView
+            android:textColor="#fff"
+            android:id="@+id/judulniat"
+            android:layout_below="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:text="Niat Sholat Tahajud :"
+             android:gravity="center"/>
+        <ImageButton
+            android:src="@drawable/niattahajud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/niatimage"
+            android:layout_below="@+id/judulniat"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/latindoa"
+            android:textColor="#fff"
+            android:text=" ” USHALLI SUNNATAT TAHAJJUDI RAK’ATAINI LILLAAHI TA’AALAA ”"
+            android:layout_below="@+id/niatimage"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/artidoa"
+            android:textColor="#fff"
+            android:text=" ”Aku niat Sholat Sunah Tahajud dua Raka’at karena Alloh Ta’ala ”."
+            android:layout_below="@+id/latindoa"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/content2"
+            android:textColor="@color/colorPrimary"
+            android:text=" Setelah anda selesai mengerjakan Sholat Sunah Tahajud dan Berdoa Setelah Shalat Tahajud lalu anda bisa beranjak tidur lagi dan sebelum tidur sebaiknya anda membaca Ayat Yasin, Surat Al Ikhlas, Surat Al Falaq dan Surat An Nas yg bertujuan untuk memohon perlindungan Alloh dari godaan setan atau anda bisa membaca Al Qur’an sambil menunggu datangnya Waktu Shalat Subuh"
+            android:layout_below="@+id/artidoa"
+            />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pengertian_dhuha"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.PengertianDhuha">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/dhuha"
+        android:layout_width="100pt"
+        android:layout_height="100pt"
+        android:id="@+id/dhuhaimage"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="15pt"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sholat Dhuha"
+            android:id="@+id/judul"
+            android:layout_below="@+id/dhuhaimage"/>
+
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/pengertian"
+            android:layout_below="@+id/judul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Shalat Dhuha adalah shalat sunah yang dilakukan seorang muslim ketika masuk waktu duha.Apakah waktu duha itu?Waktu dhuha adalah waktu ketika matahari mulai naik kurang lebih 7 hasta sejak terbitnya ( kira kira pukul 7 pagi ) hingga waktu dzhuhur.jumlah rakaat shalat duha minimal 2 rakaat dan maksimal adalah 12 rakaat.Dilakukan dalam satuan 2 rakaat sekali salam.
+            "/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hadist"
+            android:textColor="#000"
+            android:layout_below="@+id/pengertian"
+            android:text="Hadis Rasulullah SAW terkait shalat dhuha antara lain :
+"/>
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/hadist1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hadist"
+            android:text="1. “Barang siapa salat Duha 12 rakaat, Allah akan membuatkan untuknya istana disurga” (H.R. Tirmiji dan Abu Majah)."
+            />
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/hadist2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hadist1"
+            android:text="2. “Siapapun yang melaksanakan salat duha dengan langgeng, akan diampuni dosanya oleh Allah, sekalipun dosa itu sebanyak buih di lautan. (H.R Tirmidzi)"
+            />
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/hadis3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hadist2"
+            android:text="3. Rasulullah bersabda di dalam Hadis Qudsi, Allah SWT berfirman, “Wahai anak Adam, jangan sekali-kali engkau malas mengerjakan empat rakaat salat duha, karena dengan salat tersebut, Aku cukupkan kebutuhanmu pada sore harinya. (HR Hakim dan Thabrani)"
+        />
+
+    </RelativeLayout>
+</ScrollView>

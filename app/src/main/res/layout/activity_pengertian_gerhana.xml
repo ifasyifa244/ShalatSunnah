@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pengertian_gerhana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.PengertianGerhana">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:src="@drawable/gerhana"
+            android:id="@+id/imagefitri"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/judul"
+            android:layout_below="@+id/imagefitri"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:text=" Sholat Gerhana"
+            android:gravity="center"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content"
+            android:layout_below="@+id/judul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Gerhana matahari adalah peristiwa dimana sinar matahari pada waktu siang hari menghilang sebagian ataupun semua (total) dikarenakan terhalang oleh adanya bulan yang melintas diantara matahari dan bumi. "/>
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content2"
+            android:layout_below="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sedangkan gerhana bulan adalah peristiwa dimana sinar matahari yang memancar pada bulan terhalangi oleh bayangan bumi sehingga sinar yang terlihat pada bulan menghilang sebagian ataupun secara total. Hal ini terjadi pada saat bumi tepat berada lurus di tengah bulan dan matahari (segaris)."/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content3"
+            android:layout_below="@+id/content2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Semua umat muslim di seluruh dunia dianjurkan melaksanakan sholat gerhana bila mereka mengetahui pada saat tersebut benar-benar sedang terjadi peristiwa gerhana. Sholat gerhana ada dua macam yang disebut khusufain yaitu sholat karena gerhana matahari dan sholat karena gerhana bulan. Sholat gerhana matahari disebut dengan sholat kusuf, sedangkan sholat gerhana bulan disebut dengan sholat khusuf."/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content4"
+            android:layout_below="@+id/content3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah rakaat dalam sholat gerhana pada umumnya adalah dua rakaat. Waktu pelaksanaan sholat gerhana dimulai dari terjadinya gerhana sampai pada saat bulan atau matahari kembali seperti biasanya."/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/content5"
+            android:layout_below="@+id/content4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Setelah sholat gerhana selesai dilanjutkan dengan 2 khutbah seperti sholat jum'at dengan dianjurkan khutbah berisi sesuatu yang memotivasi untuk melakukan taubat, bersedekah, memperbanyak istighfar dan lain-lain. Sholat gerhana lebih baik dan utama bila dikerjakan secara bersama-sama (berjamaah)."/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/content6"
+            android:layout_below="@+id/content5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Niat sholat gerhana sebenarnya sama saja dengan niat sholat-sholat yang lain, yaitu cukup diucapkan didalam hati sudah tidak menjadi masalah dan yang paling penting niat sholat karena Allah semata dan ikhlas dari dalam hati. Bila ingin melafalkan niat dengan jelas sebaiknya dilakukan dengan tidak terlalu keras agar orang yang sholat didekat kita tidak terganggu. Bacaan lafadz niat sholat gerhana yaitu :
+"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/niatgerhhana"
+            android:layout_below="@+id/content6"
+            android:id="@+id/image3"/>
+    </RelativeLayout>
+</ScrollView>

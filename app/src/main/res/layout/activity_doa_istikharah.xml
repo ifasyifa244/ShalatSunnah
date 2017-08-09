@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_doa_istikharah"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.DoaIstikharah">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:src="@drawable/doa"
+            android:id="@+id/image"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:text="Doa Sholat Istikharah"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:id="@+id/judul"/>
+        <ImageView
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:src="@drawable/doaistikharah"
+            android:id="@+id/image2"
+            android:layout_below="@+id/judul"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image2"
+            android:text="Allaahumma innii astajhiruka bi'imika wa astaqdiruka biqudratika, wa as'aluka mingfadhlikal azhiimi, fainnakataqdiru walaa aqdiru, wata'lamu walaa a'lamu, wan angta al laamulghuyuubi allaahumma ingkungta talamu annahaadzalamra *( Disini dari titik titik bacaan di atas silahkan sebutkan perkara masing-masing )* khairullii fiidiinii wama'aasyii wa'aaqibati amrii, faqdirhulii wayassirhu liitsumma baariklii fiihi, wa'ingkungta ta lamu anna haadazal amra syarrulli fii fidiinii wa ma'aasyii wa'aaqibati amrii, fashrifhu'annii washrifnii anhu waqdir liyal khaira haitsu kaana tsumma radhdhinii bihi"
+            android:textColor="#fff"
+            android:id="@+id/content2"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content2"
+            android:text="Arti Doa Sholat Istikharah :"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:id="@+id/content3"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content3"
+            android:text="'Wahai allah, sesungguhnya aku memohon kepada engkau memilih yang baik untukku dengan ilmu engkau, aku memohon kepada engkau untuk menentukannya dengan kekuasaan engkau, dan aku memohon kepada engkau anugerah engkau yang agung, karena sesungguhnya engkau mampu memberi ketentuan sedangkan aku tidak, engkau dapat mengetahuinya, sedangkan aku tidak, dan engkaulah yang maha mengetahui hal-hal yang ghaib, wahai allah jika engkau tahu bahwa perkara ini *(SILAHKAN SEBUTKAN PERKARA MASING-MASING)* baik bagiku, didalam agamaku, kehidupanku, dan akibatnya, maka tetapkanlah perkara itu untukku dan mudahkanlah itu bagiku kemudian berilah aku keberkahan didalamnya, dan jika engkau tau bahwa perkara ini jelek bagiku, didalam agamaku, kehidupanku, dan akibatnya, maka jauhkanlah pekara itu dariku dan jauhkanlah aku darinya dan tetapkanlah untukku kebaikan dimanapun adanya, kemudian jadikanlah aku rela kepadanya'"
+            android:textColor="#fff"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tatacara_gerhana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.TatacaraGerhana">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:src="@drawable/solat"
+            android:id="@+id/image"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/judul"
+            android:layout_below="@+id/image"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:text="Tatacara Sholat Gerhana"
+            android:gravity="center"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content"
+            android:layout_below="@+id/judul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ketika jamaah sudah berkumpul maka bilal menyerukan ' Asholaatu Jaami'ah '. Kemudian baru dilaksanakan sholat gerhana. Sebenarnya sholat gerhana adalah sholat yang hampir sama semua gerakan dan bacaannya dengan sholat-sholat lainnya, namun perbedaannya terletak pada :"/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/content2"
+            android:layout_below="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Bacaan surat pendek setelah Al-fatihah lebih baik diganti dengan surat panjang karena sunnah, tetapi bila yang dibaca selain surat panjang tidak masalah."/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/content3"
+            android:layout_below="@+id/content2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Pada saat setelah bangun dari ruku' tidak langsung dilanjutkan dengan sujud tetapi dilanjutkan membaca surat Al-fatihah dan membaca surat panjang (sunnah) dengan tanpa dikeraskan. Kemudian dilanjutkan dengan ruku' yang ke 2 dan bangun dari ruku' (i'tidal) dan sujud 2 kali (seperti sholat biasanya) kemudian dilanjutkan rakaat kedua sama seperti rakaat pertama. (Membaca Al-Fatihah - membaca surat panjang - ruku' pertama dan bangun - membaca surat Al-Fatihah dan membaca surah panjang secara tidak dikeraskan - ruku' kedua - dilanjutkan bangun dari ruku' kedua dan i'tidal - sujud 2 kali (seperti sholat biasanya) - tasyahud - salam)"/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/content4"
+            android:layout_below="@+id/content3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Dilanjutkan dengan khutbah yang disampaikan oleh imam."/>
+    </RelativeLayout>
+</ScrollView>

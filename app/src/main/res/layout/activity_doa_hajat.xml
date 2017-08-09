@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_doa_hajat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.DoaHajat">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="200pt"
+        android:layout_height="100pt"
+        android:src="@drawable/witir"
+        android:id="@+id/image"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:text="Doa Sholat Hajat"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="10pt"
+        android:id="@+id/judul"/>
+
+        <ImageView
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:src="@drawable/doahajat"
+            android:id="@+id/image2"
+            android:layout_below="@+id/judul"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image2"
+            android:text="  Laa ilaha illallohul haliimul kariimu subhaanallohi robbil ‘arsyil ‘azhiim. Alhamdu lillaahi robbil ‘aalamiin. As `aluka muujibaari rohmatika wa ‘azaaima maghfirotika wal ghoniimata ming kulli birri wassalaamata ming kulli itsmin Laa tada’ lii dzamban illa ghofartahu walaa hamman illaa farojtahu walaa haajatan hiya laka ridhon illa qodhoitahaa yaa arhamar roohimiin."
+            android:textColor="#fff"
+            android:id="@+id/content2"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content2"
+            android:text="Arti Doa Sholat Hajat :"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:id="@+id/content3"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content3"
+            android:text="  'Tidak ada Tuhan melainkan Allah Yang Maha Lembut dan Maha Penyantun. Maha Suci Allah, Tuhan pemelihara Arsy yang Maha Agung. Segala puji bagi Allah Tuhan seru sekalian alam. Kepada-Mu-lah aku memohon sesuatu yang mewajibkan rahmat-Mu, dan sesuatu yang mendatangkan ampunan-Mu dan memperoleh keuntungan pada tiap-tiap dosa. Janganlah Engkau biarkan dosa daripada diriku, melainkan Engkau ampuni dan tidak ada sesuatu kepentingan, melainkan Engkau beri jalan keluar, dan tidak pula sesuatu hajat yang mendapat kerelaan-Mu, melainkan Engkau kabulkan. Wahai Tuhan Yang Paling Pengasih dan Penyayang.'"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+</ScrollView>

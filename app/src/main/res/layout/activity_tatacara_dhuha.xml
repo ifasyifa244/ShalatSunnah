@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tatacara_dhuha"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.TatacaraDhuha">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/dhuha3"
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:id="@+id/dhuhaimage"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Tatacara Sholat Dhuha"
+            android:id="@+id/judul"
+            android:layout_below="@+id/dhuhaimage"/>
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content"
+            android:layout_below="@+id/judul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""></TextView>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/niat"
+            android:textColor="#000"
+            android:text="Niat Sholat Dhuha : "
+            android:textStyle="bold"
+            android:layout_below="@+id/content"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/doaniat"
+            android:textColor="#fff"
+            android:text=" أصلي سنة الضحى ركعتين لله تعالى "
+            android:textStyle="bold"
+            android:layout_below="@+id/niat"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/artidoa"
+            android:textColor="#fff"
+            android:text=" Ushallii sunnatadh-dhuhaa rak’ataini lillaahi ta’aalaa (Aku niat shalat dhuha 2 rakaat karena ALLAH SWT)"
+            android:textStyle="bold"
+            android:layout_below="@+id/doaniat"
+            android:gravity="center"/>
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tatacara1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/artidoa"
+            android:text="1. lalu dilanjutkan dengan membaca doa iftitah."/>
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tatacara2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tatacara1"
+            android:text="2. Dilanjutkan dengan membaca surat Al fatihah."/>
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tatacara3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tatacara2"
+            android:text="3. Pada rakaat pertama hendak nya membaca surat asy-syam.(pada rakaat kedua hendak nya membaca surat al-lail."/>
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tatacara4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tatacara3"
+            android:text="4. ruku dan membaca tasbih sebanyak 3 kali."/>
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tatacara5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tatacara4"
+            android:text="5. iltidal dan membaca bacaan nya."/>
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tatacara6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tatacara5"
+            android:text="6. sujud pertama dan membaca tasbih 3 kali."/>
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tatacara7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tatacara6"
+            android:text="7. duduk diantara dua sujud dan membaca bacaan nya."/>
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tatacara8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tatacara7"
+            android:text="8. sujud kedua dan membaca tasbih 3 kali."/>
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tatacara9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tatacara8"
+            android:text="Pada rakaat kedua cara nya sama seperti pada rakaat pertama(hanya beda bacaan surat nya saja setelah membaca alfatihah).lalu setelah sampai ke tahap tasyahhud akhir,dan setelah selesai maka mngucapkan salam 2 kali ke kiri dan ke kanan dan membaca Doa Sholat Dhuha"/>
+    </RelativeLayout>
+</ScrollView>

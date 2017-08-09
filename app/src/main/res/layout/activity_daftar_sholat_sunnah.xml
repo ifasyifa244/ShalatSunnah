@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_daftar_sholat_sunnah"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.DaftarSholatSunnah">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+            android:id="@+id/Dhuha"
+            android:text="Sholat Dhuha"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/Tahajud"
+            android:text="Sholat Tahajud"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/Gaib"
+            android:text="Sholat Gaib"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/Idul"
+            android:text="Sholat Idul Fitri"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/Adha"
+            android:text="Sholat Idul Adha"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/Gerhana"
+            android:text="Sholat Gerhana"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/Istikharah"
+            android:text="Sholat Istikharah"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/witir"
+            android:text="Sholat Witir"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/taubat"
+            android:text="Sholat Taubat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/Hajat"
+            android:text="Sholat Hajat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_doa_gerhana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.DoaGerhana">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/gerhana2"
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:id="@+id/imagedoa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/judulindo"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:text="Bacaan Doa Setelah Shalat Gerhana Bulan diatas bisa anda amalkan setelah anda mengerjakan Shalat Gerhana Bulan dan Doa Shalat Gerhana Bulan lainnya bisa anda tambahkan sendiri menurut dg keyakinaan anda. Inget bahwa Mengerjakan Shalat Gerhana Bulan merupakan salah satu Shalat Sunnah yg memiliki pahala yg begitu besar sehingga jangan sampai disepelekan oleh anda."
+            android:layout_below="@+id/image2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp" />
+
+        <ImageView
+            android:src="@drawable/doagerhana"
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:id="@+id/image2"
+            android:layout_below="@+id/judul"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="28dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Doa Sholat Gerhana"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:id="@+id/judul"
+            android:layout_below="@+id/imagedoa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp" />
+
+    </RelativeLayout>
+</ScrollView>

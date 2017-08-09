@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tatacara_hajat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.TatacaraHajat">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="200pt"
+        android:layout_height="100pt"
+        android:src="@drawable/hajat"
+        android:id="@+id/imagefitri"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/judul"
+        android:layout_below="@+id/imagefitri"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:text="Tatacara Sholat Hajat"
+        android:gravity="center"/>
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content"
+            android:layout_below="@+id/judul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Niat"/>
+        <ImageView
+            android:layout_width="200pt"
+            android:layout_height="30pt"
+            android:layout_below="@+id/content"
+            android:src="@drawable/niathajat"
+            android:id="@+id/content2"/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/content3"
+            android:gravity="center"
+            android:layout_below="@+id/content2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ushallii sunnatal haajati rak’aataini lillaahi ta’aala."/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/content4"
+            android:layout_below="@+id/content3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Artinya: “Aku berniat shalat hajat sunah hajat dua rakaat karena Allah Ta’ala.”"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content5"
+            android:layout_below="@+id/content4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Membaca do’a iftitah"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content6"
+            android:layout_below="@+id/content5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Membaca surat Al-Fatihah"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content7"
+            android:layout_below="@+id/content6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Membaca salah satu surat didalam Al-Qur’an. Afdhalnya rokaat pertama membaca surat Al-Ikhlas dan rokaat kedua membaca ayat kursi (Surat Al-Baqarah : 255)"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content8"
+            android:layout_below="@+id/content7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Ruku’ dengan membaca Tasbih tiga kali"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content9"
+            android:layout_below="@+id/content8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="6. I’tidal dengan membaca bacaannya"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content10"
+            android:layout_below="@+id/content9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Sujud dengan membaca Tasbih 3 kali"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content11"
+            android:layout_below="@+id/content10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Duduk diantara dua sujud dengan membaca bacaannya"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content12"
+            android:layout_below="@+id/content11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Sujud dengan membaca Tasbih 3 kali"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content13"
+            android:layout_below="@+id/content12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Setelah rokaat pertama, lakakuan rokaat kedua sebagaimana cara diatas, kemudian tasyahud akhir setelah selesai maka membaca salam dua kali."/>
+    </RelativeLayout>
+</ScrollView>

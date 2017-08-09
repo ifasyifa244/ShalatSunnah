@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pengertian_idul_adha"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.istigosah.id.shalatsunnah.PengertianIdulAdha">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="200pt"
+            android:layout_height="100pt"
+            android:src="@drawable/idulfitri2"
+            android:id="@+id/imagefitri"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/judul"
+            android:layout_below="@+id/imagefitri"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:text=" Sholat Idul Adha"
+            android:gravity="center"/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content"
+            android:layout_below="@+id/judul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sholat ‘ied termasuk salah satu bagian dari syiar Islam dan merupakan anugrah Allah yang khusus kepada umat Islam. Secara bahasa Ied artinya kembali, dikatakan ied karena kembalinya hari itu dengan perputaran tahun, atau karena kembalinya rasa gembira dan bahagia tiap datangnya hari tersebut. Ada yang mengatakan karena banyaknya keutamaan Allah SWT yang dicurahkan kepada hamba-Nya pada hari tersebut "/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content2"
+            android:layout_below="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hukum Sholat ‘Ied adalah sunnah muakkad karena Rasulullah SAW selalu mengerjakannya. Sedangkan menurut pendapat imam Abu Hanifah hukumnya fardhu ‘ain dan menurut imam Ahmad hukumnya fardhu kifayah.
+Sholat ied disunnahkan baik bagi orang yang mukim ataupun musafir, merdeka atau budak, laki-laki maupun perempuan. Sholat iedul fitri dilakukan lebih awal oleh Nabi Saw di tahun ke 2 H kemudian sholat iedul adha."/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/content3"
+            android:layout_below="@+id/content2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Dalil Sholat ‘Ied :"/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/content4"
+            android:layout_below="@+id/content3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Firman Allah SWT:
+فَصَلِّ لِرَبِّكَ وَانْحَرْ"/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/content5"
+            android:layout_below="@+id/content4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Artinya: “maka laksanakanlah sholat karena tuhanmu, dan berqurbanlah. (QS Alkautsar 2)."/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content6"
+            android:layout_below="@+id/content5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Kebanyakan ahli tafsir berpendapat bahwa yang dimaksud “sholat” di ayat tersebut adalah sholat ied.
+Menurut pendapat yang kuat Sholat iedul adha lebih utama daripada sholat iedul fitri sebagaimana pendapat imam Ibn Hajar karena ada nash langsung dari Al-Qur’an. Sedangkan menurut imam Izzuddin bin Abdissalam Shalat Iedul Fitri yang lebih utama."/>
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/content7"
+            android:layout_below="@+id/content6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Waktu Sholat ied adalah mulai terbitnya matahari hingga masuknya waktu duhur. Namun dianjurkan mengakhirkan hingga ketinggian matahari ukuran tombak (sekitar  16 menit dari terbitnya matahari), karena mengikuti Nabi dan keluar dari pendapat ulama’ seperti imam Malik yang menyatakan itu adalah awal waktunya."/>
+    </RelativeLayout>
+</ScrollView>
