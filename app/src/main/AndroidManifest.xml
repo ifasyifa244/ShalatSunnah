@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/iconsolat"
+        android:icon="@mipmap/prayer"
         android:label="Panduan Sholat Sunnah"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
