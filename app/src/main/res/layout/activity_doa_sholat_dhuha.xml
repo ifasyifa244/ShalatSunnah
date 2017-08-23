@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/judulindo"
             android:id="@+id/doaindo"
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:text="Allahumma innadh dhuha-a dhuha-uka, wal bahaa-a bahaa-uka, wal jamaala jamaaluka, wal quwwata quwwatuka, wal qudrata qudratuka, wal ishmata ishmatuka. Allahuma inkaana rizqi fis samma-i fa anzilhu, wa inkaana fil ardhi fa-akhrijhu, wa inkaana mu’asaran fayassirhu, wainkaana haraaman fathahhirhu, wa inkaana ba’idan fa qaribhu, bihaqqiduhaa-ika wa bahaaika, wa jamaalika wa quwwatika wa qudratika, aatini maa ataita ‘ibadakash shalihin."/>
         <TextView
             android:layout_width="fill_parent"
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/arti1"
             android:id="@+id/arti"
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:text="“Ya Allah, sesungguhnya waktu dhuha adalah waktu dhuha-Mu, keagungan adalah keagunan-Mu, keindahan adalah keindahan-Mu, kekuatan adalah kekuatan-Mu, penjagaan adalah penjagaan-Mu, Ya Allah, apabila rezekiku berada di atas langit maka turunkanlah, apabila berada di dalam bumi maka keluarkanlah, apabila sukar mudahkanlah, apabila haram sucikanlah, apabila jauh dekatkanlah dengan kebenaran dhuha-Mu, kekuasaan-Mu (Wahai Tuhanku), datangkanlah padaku apa yang Engkau datangkan kepada hamba-hambaMu yang soleh."/>
     </RelativeLayout>
 </ScrollView>

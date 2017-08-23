@@ -1,65 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_profile"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/profile"
+    android:background="@drawable/homeback"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="assalaam.istigosah.id.shalatsunnah.Profile">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
     <ImageView
         android:layout_width="200pt"
-        android:layout_height="100pt"
+        android:layout_height="80pt"
         android:src="@drawable/syifa"
+        android:layout_marginTop="20dp"
         android:id="@+id/image"/>
-
     <TextView
         android:layout_below="@+id/image"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="Full Name : Syifa Fauziah"
+        android:textColor="#fff"
+        android:text="PROFIL"
         android:textStyle="bold"
         android:gravity="center"
         android:textSize="6pt"
         android:layout_width="200pt"
         android:layout_height="20pt"
         android:id="@+id/content"/>
+
     <TextView
         android:layout_below="@+id/content"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="Nick Name : Syifa "
+        android:textColor="#000"
+        android:text="Nama Asli : Syifa Fauziah"
         android:textStyle="bold"
         android:gravity="center"
-        android:textSize="6pt"
+        android:textSize="4pt"
         android:layout_width="200pt"
-        android:layout_height="20pt"
-        android:id="@+id/content2"
-        />
+        android:layout_height="10pt"
+        android:id="@+id/content2"/>
     <TextView
         android:layout_below="@+id/content2"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="From : XII RPL 1 "
+        android:textColor="#000"
+        android:text="Nama Panggilan : Syifa "
         android:textStyle="bold"
         android:gravity="center"
-        android:textSize="6pt"
+        android:textSize="4pt"
         android:layout_width="200pt"
-        android:layout_height="20pt"
+        android:layout_height="10pt"
         android:id="@+id/content3"
         />
     <TextView
         android:layout_below="@+id/content3"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="At : Smk Assalaam Bandung "
+        android:textColor="#000"
+        android:text="Dari : XII RPL 1 "
         android:textStyle="bold"
         android:gravity="center"
-        android:textSize="6pt"
+        android:textSize="4pt"
         android:layout_width="200pt"
-        android:layout_height="20pt"
+        android:layout_height="10pt"
         android:id="@+id/content4"
         />
+    <TextView
+        android:layout_below="@+id/content4"
+        android:textColor="#000"
+        android:text="Di : Smk Assalaam Bandung "
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="4pt"
+        android:layout_width="200pt"
+        android:layout_height="10pt"
+        android:id="@+id/content5"
+        />
+    <ImageView
+        android:layout_width="20pt"
+        android:layout_height="20pt"
+        android:src="@drawable/bbm"
+        android:id="@+id/bbm"
+        android:layout_below="@+id/content5"/>
+    <ImageView
+        android:layout_width="20pt"
+        android:layout_height="20pt"
+        android:layout_below="@+id/bbm"
+        android:layout_marginTop="2dp"
+        android:id="@+id/fb"
+        android:src="@drawable/fb"/>
+    <ImageView
+        android:layout_width="20pt"
+        android:layout_height="20pt"
+        android:src="@drawable/instagram2"
+        android:id="@+id/instagram"
+        android:layout_below="@+id/fb"/>
+    <ImageView
+        android:layout_width="20pt"
+        android:layout_height="20pt"
+        android:src="@drawable/email"
+        android:id="@+id/email"
+        android:layout_below="@+id/instagram"/>
 
+        <TextView
+        android:layout_width="65pt"
+        android:layout_height="10pt"
+        android:text="fsyifafauziah123@gmail.com"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textSize="4pt"
+        android:id="@+id/content9"
+        android:layout_alignBottom="@+id/email"
+        android:layout_alignLeft="@+id/content8"
+        android:layout_alignStart="@+id/content8" />
 
+        <TextView
+            android:textColor="#fff"
+            android:text=" Syifa Fauziah "
+            android:textStyle="bold"
+            android:textSize="4pt"
+            android:layout_width="65pt"
+            android:layout_height="10pt"
+            android:id="@+id/content7"
+            android:layout_above="@+id/instagram"
+            android:layout_alignLeft="@+id/content6"
+            android:layout_alignStart="@+id/content6" />
 
-</RelativeLayout>
+        <TextView
+        android:textColor="#fff"
+        android:text="syifafauziah_24 "
+        android:textStyle="bold"
+        android:textSize="4pt"
+        android:layout_width="65pt"
+        android:layout_height="10pt"
+        android:id="@+id/content8"
+            android:layout_above="@+id/email"
+            android:layout_alignLeft="@+id/content7"
+            android:layout_alignStart="@+id/content7" />
+
+        <TextView
+            android:textColor="#FFF"
+            android:text="D2934F43 "
+            android:textStyle="bold"
+            android:textSize="4pt"
+            android:layout_width="65pt"
+            android:layout_height="10pt"
+            android:id="@+id/content6"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_above="@+id/fb"
+            android:layout_toRightOf="@+id/bbm"
+            android:layout_toEndOf="@+id/bbm" />
+    </RelativeLayout>
+</ScrollView>

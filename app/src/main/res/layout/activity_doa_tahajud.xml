@@ -25,7 +25,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imagedoa"
-                android:text="Doa Sholat Dhuha"
+                android:text="Doa Sholat Tahajud"
                 android:textColor="@color/colorPrimary"
                 android:textStyle="bold"
                 android:gravity="center"
@@ -42,7 +42,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/arti"
-                android:textColor="@color/colorPrimary"
+                android:textColor="#000"
                 android:text="” Ya Alloh, bagimu segala puji. Engkau-lah (Alloh) penegak langit dan bumi dan alam semesta serta segala isinya. Bagimulah segala puji, Engkau (Alloh) Raja penguasa langit dan bumi. Bagimu-lah (Alloh) segala puji, pemancar cahaya langit dan bumi. Bagimu-lah (Alloh) segala puji, Engkau-lah (Alloh) yg hak dan janjimu adalah benar dan perjumpaanmu itu adalah hak dan firmanmu adlh benar, dan surga adlh hak dan Neraka adlh hak dan Nabi – Nabi itu hak benar dan Nabi Muhammad Saw adalah benar, dan saat hari Kiamat itu benar. Ya Alloh kepadamulah kami berserah diri (bertawakal) kepada Engkau jualah kami kembali dan kepadamulah kami rindu dan kpd engkaulah kami Berhukum
 
 Ampunilah kami atas kesalahan yg sudah kami lakukan dan yg sebelumnya baik yg kami sembunyikan maupun yg kami nyatakan. Engkaulah Tuhan yg terdahulu dan Tuhan yg terakhir, Tiada Tuhan melainkan Engkau Alloh Rabbul  Alamin. Tiada daya dan kekuatan melainkan dg Alloh ”"
@@ -56,6 +56,7 @@ Ampunilah kami atas kesalahan yg sudah kami lakukan dan yg sebelumnya baik yg ka
                 android:layout_height="wrap_content"
                 android:id="@+id/judularti"
                 android:textColor="#fff"
+                android:textStyle="bold"
                 android:gravity="center"
                 android:text="Arti Doa Sholat Dhuha :"
                 android:layout_below="@+id/latindoa"

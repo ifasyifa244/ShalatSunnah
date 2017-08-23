@@ -11,67 +11,171 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="assalaam.istigosah.id.shalatsunnah.DaftarSholatSunnah">
     
-    <LinearLayout
+    <RelativeLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
-        
-        <Button
-            android:id="@+id/Dhuha"
-            android:text="Sholat Dhuha"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/Tahajud"
-            android:text="Sholat Tahajud"
-            android:background="#0277BD"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/Gaib"
-            android:text="Sholat Gaib"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+
         <Button
             android:id="@+id/Idul"
-            android:text="Sholat Idul Fitri"
-            android:layout_width="fill_parent"
-            android:background="#0277BD"
-            android:layout_height="wrap_content" />
+            android:background="@drawable/green"
+            android:text="Shalat
+Idul fitri"
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/Dhuha"
+            android:layout_alignLeft="@+id/Dhuha"
+            android:layout_alignStart="@+id/Dhuha" />
+
         <Button
             android:id="@+id/Adha"
-            android:text="Sholat Idul Adha"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:background="@drawable/brown"
+            android:text="Shalat
+Idul Adha"
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_alignBaseline="@+id/Idul"
+            android:layout_alignBottom="@+id/Idul"
+            android:layout_alignLeft="@+id/Tahajud"
+            android:layout_alignStart="@+id/Tahajud" />
+
         <Button
             android:id="@+id/Gerhana"
-            android:text="Sholat Gerhana"
-            android:layout_width="fill_parent"
-            android:background="#0277BD"
-            android:layout_height="wrap_content" />
+            android:background="@drawable/green"
+            android:text="Shalat
+Gerhana"
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/Idul"
+            android:layout_alignLeft="@+id/Idul"
+            android:layout_alignStart="@+id/Idul" />
+
         <Button
             android:id="@+id/Istikharah"
-            android:text="Sholat Istikharah"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:background="@drawable/brown"
+            android:text="Shalat
+Istikharah"
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_alignBaseline="@+id/Gerhana"
+            android:layout_alignBottom="@+id/Gerhana"
+            android:layout_alignLeft="@+id/Adha"
+            android:layout_alignStart="@+id/Adha" />
+
         <Button
-            android:id="@+id/witir"
-            android:text="Sholat Witir"
-            android:background="#0277BD"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:id="@+id/Gaib"
+            android:background="@drawable/green"
+            android:text="Shalat
+Gaib"
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/Gerhana"
+            android:layout_alignLeft="@+id/Gerhana"
+            android:layout_alignStart="@+id/Gerhana" />
+
         <Button
-            android:id="@+id/taubat"
-            android:text="Sholat Taubat"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:id="@+id/Taubat"
+            android:background="@drawable/brown"
+            android:text="Shalat
+Taubat"
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_alignBaseline="@+id/Gaib"
+            android:layout_alignBottom="@+id/Gaib"
+            android:layout_alignLeft="@+id/Istikharah"
+            android:layout_alignStart="@+id/Istikharah" />
+
+        <Button
+            android:id="@+id/Witir"
+            android:background="@drawable/green"
+            android:text="Shalat
+Witir"
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/Gaib"
+            android:layout_alignLeft="@+id/Gaib"
+            android:layout_alignStart="@+id/Gaib" />
+
         <Button
             android:id="@+id/Hajat"
-            android:text="Sholat Hajat"
-            android:background="#0277BD"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
+            android:background="@drawable/brown"
+            android:text="Shalat
+Hajat"
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_alignBaseline="@+id/Witir"
+            android:layout_alignBottom="@+id/Witir"
+            android:layout_alignLeft="@+id/Taubat"
+            android:layout_alignStart="@+id/Taubat" />
 
-    </LinearLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="Daftar Shalat Sunnah :"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/judul"
+            android:layout_marginTop="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/Dhuha"
+            android:background="@drawable/green"
+            android:text="Shalat Dhuha"
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="39dp"
+            android:layout_below="@+id/judul"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/Tahajud"
+            android:background="@drawable/brown"
+            android:text="Shalat
+Tahajud"
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginEnd="19dp"
+            android:layout_alignBaseline="@+id/Dhuha"
+            android:layout_alignBottom="@+id/Dhuha"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
 
 </ScrollView>

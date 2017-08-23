@@ -71,7 +71,7 @@
             android:layout_below="@+id/doaniat"
             android:gravity="center"/>
         <TextView
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="#000"
             android:id="@+id/tatacara1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -79,56 +79,56 @@
             android:text="1. lalu dilanjutkan dengan membaca doa iftitah."/>
 
         <TextView
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="#000"
             android:id="@+id/tatacara2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tatacara1"
             android:text="2. Dilanjutkan dengan membaca surat Al fatihah."/>
         <TextView
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="#000"
             android:id="@+id/tatacara3"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tatacara2"
             android:text="3. Pada rakaat pertama hendak nya membaca surat asy-syam.(pada rakaat kedua hendak nya membaca surat al-lail."/>
         <TextView
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="#000"
             android:id="@+id/tatacara4"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tatacara3"
             android:text="4. ruku dan membaca tasbih sebanyak 3 kali."/>
         <TextView
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="#000"
             android:id="@+id/tatacara5"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tatacara4"
             android:text="5. iltidal dan membaca bacaan nya."/>
         <TextView
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="#000"
             android:id="@+id/tatacara6"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tatacara5"
             android:text="6. sujud pertama dan membaca tasbih 3 kali."/>
         <TextView
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="#000"
             android:id="@+id/tatacara7"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tatacara6"
             android:text="7. duduk diantara dua sujud dan membaca bacaan nya."/>
         <TextView
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="#000"
             android:id="@+id/tatacara8"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tatacara7"
             android:text="8. sujud kedua dan membaca tasbih 3 kali."/>
         <TextView
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="#000"
             android:id="@+id/tatacara9"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

@@ -90,7 +90,7 @@ public class DaftarSholatSunnah extends AppCompatActivity {
             }
         });
 
-        Button Witir =(Button) findViewById(R.id.witir);
+        Button Witir =(Button) findViewById(R.id.Witir);
 
         Witir.setOnClickListener(new View.OnClickListener(){
             public void onClick(View pilih){
@@ -100,7 +100,7 @@ public class DaftarSholatSunnah extends AppCompatActivity {
             }
         });
 
-        Button Taubat =(Button) findViewById(R.id.taubat);
+        Button Taubat =(Button) findViewById(R.id.Taubat);
 
         Taubat.setOnClickListener(new View.OnClickListener(){
             public void onClick(View pilih){

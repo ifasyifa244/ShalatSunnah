@@ -14,79 +14,77 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/judul"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:gravity="center"
         android:textSize="10pt"
         android:text="Pilih Panduan :"
         android:textStyle="bold"/>
 
-    <ImageButton
-        android:src="@drawable/solat"
-        android:layout_width="50pt"
-        android:layout_height="50pt"
-        android:layout_marginRight="18dp"
-        android:layout_marginEnd="18dp"
-        android:id="@+id/tatacara"
-        android:layout_alignTop="@+id/buku"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-
-
-    <ImageButton
-        android:src="@drawable/buku"
-        android:layout_width="50pt"
-        android:layout_height="50pt"
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/definisi"
         android:id="@+id/buku"
-        android:layout_marginTop="59dp"
-        android:layout_below="@+id/judul"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_above="@+id/doa"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="17dp"
-        android:layout_marginStart="17dp" />
+        android:layout_marginBottom="102dp" />
 
-    <ImageButton
-        android:src="@drawable/doa"
-        android:layout_width="50pt"
-        android:layout_height="50pt"
-        android:layout_below="@+id/tatacara"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="69dp"
-        android:id="@+id/doa" />
 
     <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/texttentang"
-        android:text="Tentang Sholat Dhuha"
-        android:textColor="@color/colorPrimary"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:id="@+id/text"
+        android:text="Tentang Shalat"
+        android:gravity="center"
         android:textStyle="bold"
-        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:layout_below="@+id/tatacara"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <TextView
-        android:text="Tatacara"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/texttentang"
-        android:layout_alignRight="@+id/tatacara"
-        android:layout_alignEnd="@+id/tatacara"
-        android:layout_marginRight="15dp"
-        android:layout_marginEnd="15dp"
-        android:textColor="@color/colorPrimary"
-        android:textStyle="bold"
-        android:id="@+id/textView" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/pray"
+        android:id="@+id/doa"
+        android:layout_marginBottom="19dp"
+        android:layout_above="@+id/tex3"
+        android:layout_centerHorizontal="true" />
 
     <TextView
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:id="@+id/tex3"
         android:text="Doa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:id="@+id/textView2"
-        android:textColor="@color/colorPrimary"
+        android:gravity="center"
         android:textStyle="bold"
-        android:layout_below="@+id/doa"
+        android:textColor="#000"
+        android:layout_marginBottom="48dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:background="@drawable/tatacara"
+        android:id="@+id/tatacara"
+        android:layout_alignTop="@+id/buku"
+        android:layout_toRightOf="@+id/tex3"
+        android:layout_toEndOf="@+id/tex3" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:id="@+id/tex4"
+        android:text="Tatacara"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_below="@+id/tatacara"
+        android:layout_toRightOf="@+id/doa"
+        android:layout_toEndOf="@+id/doa" />
 
 </RelativeLayout>

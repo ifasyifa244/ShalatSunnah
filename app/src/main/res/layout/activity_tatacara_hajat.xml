@@ -31,7 +31,7 @@
         android:gravity="center"/>
 
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content"
             android:layout_below="@+id/judul"
             android:layout_width="fill_parent"
@@ -44,7 +44,7 @@
             android:src="@drawable/niathajat"
             android:id="@+id/content2"/>
         <TextView
-            android:textColor="#fff"
+            android:textColor="#000"
             android:id="@+id/content3"
             android:gravity="center"
             android:layout_below="@+id/content2"
@@ -52,70 +52,70 @@
             android:layout_height="wrap_content"
             android:text="Ushallii sunnatal haajati rak’aataini lillaahi ta’aala."/>
         <TextView
-            android:textColor="#fff"
+            android:textColor="#000"
             android:id="@+id/content4"
             android:layout_below="@+id/content3"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Artinya: “Aku berniat shalat hajat sunah hajat dua rakaat karena Allah Ta’ala.”"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content5"
             android:layout_below="@+id/content4"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="2. Membaca do’a iftitah"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content6"
             android:layout_below="@+id/content5"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="3. Membaca surat Al-Fatihah"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content7"
             android:layout_below="@+id/content6"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="4. Membaca salah satu surat didalam Al-Qur’an. Afdhalnya rokaat pertama membaca surat Al-Ikhlas dan rokaat kedua membaca ayat kursi (Surat Al-Baqarah : 255)"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content8"
             android:layout_below="@+id/content7"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="5. Ruku’ dengan membaca Tasbih tiga kali"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content9"
             android:layout_below="@+id/content8"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="6. I’tidal dengan membaca bacaannya"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content10"
             android:layout_below="@+id/content9"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="7. Sujud dengan membaca Tasbih 3 kali"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content11"
             android:layout_below="@+id/content10"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="8. Duduk diantara dua sujud dengan membaca bacaannya"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content12"
             android:layout_below="@+id/content11"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="9. Sujud dengan membaca Tasbih 3 kali"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content13"
             android:layout_below="@+id/content12"
             android:layout_width="fill_parent"

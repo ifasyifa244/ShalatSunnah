@@ -30,28 +30,28 @@
             android:text="Tatacara Sholat Istikharah"
             android:gravity="center"/>
         <TextView
-            android:textColor="#fff"
+            android:textColor="#000"
             android:id="@+id/content"
             android:layout_below="@+id/judul"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="1. Niat Sholat Istikhrah "/>
         <TextView
-            android:textColor="#fff"
+            android:textColor="#000"
             android:id="@+id/content2"
             android:layout_below="@+id/content"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="2. Pada rakaat pertama setelah membaca surat al-fatihah disunatkan membaca salah satu surat dalam Al-Quran apa saja yang kita mampu tetapi alangkah baiknya membaca surat al-kafirun.  "/>
         <TextView
-            android:textColor="#fff"
+            android:textColor="#000"
             android:id="@+id/content3"
             android:layout_below="@+id/content2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="3. Pada rakaat kedua setelah surat al-fatihah dianjurkan membaca surat al-ikhlas."/>
         <TextView
-            android:textColor="#fff"
+            android:textColor="#000"
             android:id="@+id/content4"
             android:layout_below="@+id/content3"
             android:layout_width="fill_parent"

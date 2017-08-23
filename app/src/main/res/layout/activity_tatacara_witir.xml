@@ -32,7 +32,7 @@
         android:layout_below="@+id/image"/>
 
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content"
             android:layout_below="@+id/judul"
             android:layout_width="fill_parent"
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:text="أصلي سنة الوتر وكعتين لله تعالي"/>
         <TextView
-            android:textColor="#fff"
+            android:textColor="#000"
             android:id="@+id/content3"
             android:layout_below="@+id/content2"
             android:layout_width="fill_parent"
@@ -55,14 +55,14 @@
             android:gravity="center"
             android:text="Ushallii sunnatal witri rak’ataini lillahi ta’alaa"/>
         <TextView
-            android:textColor="#fff"
+            android:textColor="#000"
             android:id="@+id/content4"
             android:layout_below="@+id/content3"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Artinya : Saya shalat sunnah witir 2 raka’at karena Allah ta’ala"/>
         <TextView
-            android:textColor="#fff"
+            android:textColor="#000"
             android:id="@+id/content5"
             android:layout_below="@+id/content4"
             android:layout_width="fill_parent"
@@ -77,7 +77,7 @@
             android:layout_height="wrap_content"
             android:text="أصلي سنة الوتر وكعة لله تعالي"/>
         <TextView
-            android:textColor="#fff"
+            android:textColor="#000"
             android:id="@+id/content7"
             android:layout_below="@+id/content6"
             android:layout_width="fill_parent"
@@ -87,52 +87,52 @@
         <TextView
             android:textColor="#fff"
             android:id="@+id/content8"
-            android:layout_below="@+id/content6"
+            android:layout_below="@+id/content7"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Artinya: Aku sholat sunnah witir 1 roka’at karena Allah Ta’ala"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content9"
-            android:layout_below="@+id/content6"
+            android:layout_below="@+id/content8"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="2. Membaca Alfatihah dilanjutkan dengan membaca surat pendek dalam Alqur’an :"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content10"
             android:layout_below="@+id/content9"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="  – Raka’at pertama Surat Al-A’la"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content11"
             android:layout_below="@+id/content10"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="  – Raka’at ke dua surat Alkafirun"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content12"
             android:layout_below="@+id/content11"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="3. Salam"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content13"
             android:layout_below="@+id/content12"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="3. Berdiri lagi untuk melaksanakan shalat 1 raka’at, setelah membaca Alfatihah dilanjutkan membaca surat : Al-ikhlash, surat Alfalaq dan surat Annas"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content14"
             android:layout_below="@+id/content13"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="3. Lalu akhiri dengan salam"/>
+            android:text="4. Lalu akhiri dengan salam"/>
 
     </RelativeLayout>
 </ScrollView>

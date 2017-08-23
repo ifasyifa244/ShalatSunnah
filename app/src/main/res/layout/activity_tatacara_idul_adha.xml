@@ -34,18 +34,19 @@
             android:textColor="@color/colorPrimary"
             android:id="@+id/content"
             android:layout_below="@+id/judul"
+            android:textStyle="bold"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Caranya seperti sholat sunah 2 raka’at pada umumnya dengan beberapa kesunahan berikut : "/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content2"
             android:layout_below="@+id/content"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="1. Dikerjakan secara berjama’ah kecuali orang yang sedang haji walaupun tidak berada di Mina, maka sunah tidak berjama’ah bahkan hukum berjamaahnya adalah khilaful aula."/>
         <TextView
-            android:textColor="#fff"
+            android:textColor="#000"
             android:id="@+id/content3"
             android:layout_below="@+id/content2"
             android:layout_width="fill_parent"
@@ -59,7 +60,7 @@
             android:layout_height="wrap_content"
             android:text="اُصَلِّي سُنَّةً لِعِيْدِ الْفِطْرِ\ لِعِيْدِ الأَضْحَى (…….) لِلّهِ تَعاَلَى"/>
         <TextView
-            android:textColor="#fff"
+            android:textColor="#000"
             android:id="@+id/content5"
             android:layout_below="@+id/content4"
             android:layout_width="fill_parent"
@@ -67,21 +68,21 @@
             android:text="“Ushalli sunnatan li’idil adha rokataini imaman lillahi ta’ala”
             "/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content6"
             android:layout_below="@+id/content5"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="3. Takbir diraka’at pertama 7x selain takbiratul ihram dan takbir 5x di raka’at kedua selain takbir berdiri dari sujud." />
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content7"
             android:layout_below="@+id/content6"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="4. Mengangkat kedua tangan hingga sejajar pundak di setiap takbir, kemudian menaruh di bawah dada dengan tangan kanan menggenggam pergelangan tangan kiri."/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content8"
             android:layout_below="@+id/content7"
             android:layout_width="fill_parent"
@@ -89,21 +90,21 @@
             android:text="5. Memisahkan antara takbir dengan bacaan Albaqiyatus Sholihat yaitu:
 سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إلَهَ إلَّا اللَّهُ وَاَللَّهُ أَكْبَرُ"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content9"
             android:layout_below="@+id/content7"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="6.Mengeraskan bacaan takbir, baik bagi imam, makmum maupun orang yang sholat sendiri."/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content10"
             android:layout_below="@+id/content9"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="7. Bacaan surat setelah Fatihah disunnahkan surat Qof diraka’at pertama dan surat Al-Qomar diraka’at kedua, atau surat Al-A’la, dan surat Al-Ghosyiyah secara"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content11"
             android:layout_below="@+id/content10"
             android:layout_width="fill_parent"

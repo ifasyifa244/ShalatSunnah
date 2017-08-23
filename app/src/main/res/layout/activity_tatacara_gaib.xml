@@ -25,13 +25,13 @@
             android:layout_height="wrap_content"
             android:id="@+id/judul"
             android:layout_below="@+id/tatacaraimage"
-            android:textColor="#000"
+            android:textColor="@color/colorPrimaryDark"
             android:textStyle="bold"
             android:textSize="10pt"
             android:text="Tatacara Sholat Gaib"
             android:gravity="center"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content"
             android:layout_below="@+id/judul"
             android:layout_width="fill_parent"
@@ -47,28 +47,28 @@
             android:gravity="center"
             />
         <TextView
-            android:textColor="#fff"
+            android:textColor="#000"
             android:id="@+id/content3"
             android:layout_below="@+id/content2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="”’ USHALLI ALAL MAYYITIL GHAAIBI AR-BA’A TAKBIIRAATIN FARDLAL KIFAAYATI (MA’MUUMAN / IMAAMAN) LILLAAHI TA’AALAA, ALLAAHU AKBAR ”’. Untuk Niat Shalat Ghaib diatas bisa ditambahkan dg nama si mayat itu sendiri seperti contoh, ”” USHALLI ALAL MAYYITI (Fulan) AL GHAAIBI AR-BA’A TAKBIIRAATIN FARDLAL KIFAAYATI LILLAAHI TA’AALAA, ALLAAHU AKBAR ””."/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content4"
             android:layout_below="@+id/content3"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="2. Setelah anda membaca Bacaan Niat Shalat Ghaib seperti diatas maka anda tinggal mengucakan Allahu Akbar atau Takbir Pertama, kemudian tinggal membaca Surat Al Fatihah pada Takbir Pertama tersebut."/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content5"
             android:layout_below="@+id/content4"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="3. Setelah membaca Surat Al Fatihah, maka kembali mengucapkan Allohu Akbar atau Takbir Kedua dan setelah itu anda membaca Doa Shalat Ghaib Shalawat Nabi Muhammad Saw"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content6"
             android:layout_below="@+id/content5"
             android:layout_width="fill_parent"
@@ -84,7 +84,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/image2"
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:text="5. Kemudian setelah anda membaca Doa di atas, anda mengucapkan Takbir Keempat atau Takbir Terakhir dan setelah Takbir Keempat ini anda membaca Doa seperti ini, ” ALLAAHUMMA LAA TAHRIMNAA AJRAHU WALAA FAF-TINNAA BA’DAHU WAGHFIR LANAA WALAHU ”.
 
 Setelah membaca doa setelah Takbir Keempat maka tinggal memberi Salam atau memalingkan muka arah kanan dan ke kiri sambil mengucapkan bacaan ” Assalaamu A’laikum Warahmatullaahi Wabarakaatuh ”.

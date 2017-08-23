@@ -41,6 +41,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/image2"
+            android:textStyle="bold"
             android:text="Arti Doa Sholat Gaib :"
             android:gravity="center"
             android:textColor="@color/colorPrimary"

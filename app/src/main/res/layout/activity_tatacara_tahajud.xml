@@ -31,7 +31,7 @@
             android:id="@+id/judul"
             android:layout_below="@+id/tahajudimage"/>
         <TextView
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:id="@+id/content"
             android:layout_below="@+id/judul"
             android:layout_width="fill_parent"
@@ -55,7 +55,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/latindoa"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:text=" ” USHALLI SUNNATAT TAHAJJUDI RAK’ATAINI LILLAAHI TA’AALAA ”"
             android:layout_below="@+id/niatimage"
             />
@@ -63,7 +63,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/artidoa"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:text=" ”Aku niat Sholat Sunah Tahajud dua Raka’at karena Alloh Ta’ala ”."
             android:layout_below="@+id/latindoa"
             />
@@ -71,7 +71,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/content2"
-            android:textColor="@color/colorPrimary"
+            android:textColor="#000"
             android:text=" Setelah anda selesai mengerjakan Sholat Sunah Tahajud dan Berdoa Setelah Shalat Tahajud lalu anda bisa beranjak tidur lagi dan sebelum tidur sebaiknya anda membaca Ayat Yasin, Surat Al Ikhlas, Surat Al Falaq dan Surat An Nas yg bertujuan untuk memohon perlindungan Alloh dari godaan setan atau anda bisa membaca Al Qur’an sambil menunggu datangnya Waktu Shalat Subuh"
             android:layout_below="@+id/artidoa"
             />

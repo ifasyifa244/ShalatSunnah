@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 public class SholatIdulFitri extends AppCompatActivity {
@@ -13,7 +14,7 @@ public class SholatIdulFitri extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sholat_idul_fitri);
 
-        ImageButton tentang =(ImageButton) findViewById(R.id.buku);
+        Button tentang =(Button) findViewById(R.id.buku);
         tentang.setOnClickListener(new View.OnClickListener(){
             public void onClick(View bebek){
                 Intent myIntent = new
@@ -22,7 +23,7 @@ public class SholatIdulFitri extends AppCompatActivity {
             }
         });
 
-        ImageButton tatacara =(ImageButton) findViewById(R.id.tatacara);
+        Button tatacara =(Button) findViewById(R.id.tatacara);
         tatacara.setOnClickListener(new View.OnClickListener(){
             public void onClick(View bebek){
                 Intent myIntent = new
@@ -31,7 +32,7 @@ public class SholatIdulFitri extends AppCompatActivity {
             }
         });
 
-        ImageButton doa =(ImageButton) findViewById(R.id.doa);
+        Button doa =(Button) findViewById(R.id.doa);
         doa.setOnClickListener(new View.OnClickListener(){
             public void onClick(View bebek){
                 Intent myIntent = new
